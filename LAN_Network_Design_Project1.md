@@ -26,15 +26,15 @@
 - **Basic on‑prem services**: authentication, DNS/DHCP, file/print, backups.
 
 ### 2.2 User/workload estimate (numerical)
-Assume **~80 staff** total, typical busy-hour concurrency **~60 users**.
+Assume **~50 staff/workstations** total, typical busy-hour concurrency **~35 users**.
 
 | Application | Busy-hour concurrent users | Typical per-user rate (avg / peak) | Busy-hour aggregate (rough) |
 |---|---:|---:|---:|
-| Web/SaaS + email | 50 | 0.5 Mbps / 2 Mbps | 25 Mbps avg, bursts higher |
-| File access (SMB) | 20 | 1 Mbps / 10 Mbps (bursty) | ~20 Mbps avg |
-| Video meetings (HD) | 10 | 2.0 Mbps / 3.5 Mbps | 20–35 Mbps |
-| VoIP (G.711) | 20 calls | ~0.1 Mbps per call | ~2 Mbps |
-| Wi‑Fi mobile background | 30 | 0.2 Mbps / 1 Mbps | ~6 Mbps |
+| Web/SaaS + email | 30 | 0.5 Mbps / 2 Mbps | ~15 Mbps avg, bursts higher |
+| File access (SMB) | 12 | 1 Mbps / 10 Mbps (bursty) | ~12 Mbps avg |
+| Video meetings (HD) | 6 | 2.0 Mbps / 3.5 Mbps | ~12–21 Mbps |
+| VoIP (G.711) | 12 calls | ~0.1 Mbps per call | ~1.2 Mbps |
+| Wi‑Fi mobile background | 20 | 0.2 Mbps / 1 Mbps | ~4 Mbps |
 
 **Design implication**:
 - **Access**: 1 Gbps to each outlet.
@@ -46,10 +46,10 @@ Assume **~80 staff** total, typical busy-hour concurrency **~60 users**.
 ## 3) Numerical estimation of the network + workstation tasks + architecture selection
 
 ### 3.1 Workstations / endpoints (estimate)
-- **Workstations**: 80 (mix of desktop + docked laptops)
-- **Network printers/MFP**: 6
-- **Wi‑Fi APs**: 8 (4 per floor)
-- **IP phones** (optional but supported): up to 40 (PoE)
+- **Workstations**: **50** (mix of desktop + docked laptops)
+- **Network printers/MFP**: 4
+- **Wi‑Fi APs**: 6 (3 per floor)
+- **IP phones** (optional but supported): up to 30 (PoE)
 - **Servers**: 2 (virtualization host(s) or 2 small servers)
 - **Network/IoT** (optional): 12 (cameras, access control, etc.)
 
