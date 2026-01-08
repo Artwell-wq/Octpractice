@@ -32,14 +32,21 @@ public final class PeselValidator {
         parseBirthDate(p); // throws if invalid date
     }
 
-    public static Gender genderFromPesel(String pesel) {
+    /**
+     * PESEL encodes gender in the 10th digit:
+     * - odd  -> male
+     * - even -> female
+     *
+     * @return "M" or "F"
+     */
+    public static String genderFromPesel(String pesel) {
         String p = normalize(pesel);
         if (p.length() != 11) {
             throw new IllegalArgumentException("PESEL must be exactly 11 digits.");
         }
         char genderDigit = p.charAt(9); // 10th digit (0-based index 9)
         int d = genderDigit - '0';
-        return (d % 2 == 0) ? Gender.FEMALE : Gender.MALE;
+        return (d % 2 == 0) ? "F" : "M";
     }
 
     public static LocalDate parseBirthDate(String pesel) {

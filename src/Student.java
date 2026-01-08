@@ -6,7 +6,7 @@ public final class Student {
     private final String address;
     private final String studentId;
     private final String pesel;
-    private final Gender gender;
+    private final String gender; // "M" or "F"
 
     public Student(
             String firstName,
@@ -14,14 +14,14 @@ public final class Student {
             String address,
             String studentId,
             String pesel,
-            Gender gender
+            String gender
     ) {
         this.firstName = requireNonBlank(firstName, "First name");
         this.lastName = requireNonBlank(lastName, "Last name");
         this.address = requireNonBlank(address, "Address");
         this.studentId = requireNonBlank(studentId, "Student ID");
         this.pesel = requireNonBlank(pesel, "PESEL");
-        this.gender = Objects.requireNonNull(gender, "Gender");
+        this.gender = normalizeGender(Objects.requireNonNull(gender, "Gender"));
     }
 
     private static String requireNonBlank(String v, String field) {
@@ -51,8 +51,16 @@ public final class Student {
         return pesel;
     }
 
-    public Gender getGender() {
+    public String getGender() {
         return gender;
+    }
+
+    private static String normalizeGender(String g) {
+        String v = g.trim().toUpperCase();
+        if (!v.equals("M") && !v.equals("F")) {
+            throw new IllegalArgumentException("Gender must be 'M' or 'F'.");
+        }
+        return v;
     }
 
     @Override
