@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.nio.file.Path;
 import java.time.format.DateTimeFormatter;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Scanner;
 
@@ -24,26 +25,41 @@ public final class ConsoleApp {
             printMenu();
             String choice = prompt("Choose option").trim();
             try {
+                // Classic switch (beginner-friendly)
                 switch (choice) {
-                    case "1" -> addStudent();
-                    case "2" -> displayAll();
-                    case "3" -> searchByLastName();
-                    case "4" -> searchByPesel();
-                    case "5" -> {
+                    case "1":
+                        addStudent();
+                        break;
+                    case "2":
+                        displayAll();
+                        break;
+                    case "3":
+                        searchByLastName();
+                        break;
+                    case "4":
+                        searchByPesel();
+                        break;
+                    case "5":
                         db.sortByPesel();
                         System.out.println("Sorted by PESEL.");
-                    }
-                    case "6" -> {
+                        break;
+                    case "6":
                         db.sortByLastName();
                         System.out.println("Sorted by last name.");
-                    }
-                    case "7" -> deleteByStudentId();
-                    case "8" -> save();
-                    case "9" -> {
+                        break;
+                    case "7":
+                        deleteByStudentId();
+                        break;
+                    case "8":
+                        save();
+                        break;
+                    case "9":
                         save();
                         running = false;
-                    }
-                    default -> System.out.println("Unknown option. Try again.");
+                        break;
+                    default:
+                        System.out.println("Unknown option. Try again.");
+                        break;
                 }
             } catch (IllegalArgumentException ex) {
                 System.out.println("Error: " + ex.getMessage());
@@ -79,23 +95,19 @@ public final class ConsoleApp {
         String address = prompt("Address");
         String studentId = prompt("Student ID");
         String pesel = prompt("PESEL (11 digits)");
+
+        // Validate PESEL (length, digits, checksum, and encoded date).
         PeselValidator.validateOrThrow(pesel);
 
-        Gender derived = PeselValidator.genderFromPesel(pesel);
-        String genderRaw = prompt("Gender (M/F) [optional; blank = auto from PESEL]").trim();
-        Gender gender = derived;
-        if (!genderRaw.isEmpty()) {
-            gender = Gender.parse(genderRaw);
-            if (gender != derived) {
-                throw new IllegalArgumentException("Gender does not match PESEL (PESEL implies " + derived + ").");
-            }
-        }
+        // Beginner-friendly: gender is derived directly from PESEL (PESEL encodes gender).
+        Gender gender = PeselValidator.genderFromPesel(pesel);
 
         Student s = new Student(firstName, lastName, address, studentId, pesel.trim(), gender);
         db.add(s);
 
+        LocalDate dob = PeselValidator.parseBirthDate(s.getPesel());
         System.out.println("Added: " + s.getFirstName() + " " + s.getLastName()
-                + " (DOB " + PeselValidator.parseBirthDate(s.getPesel()).format(DateTimeFormatter.ISO_DATE) + ")");
+                + " (DOB " + dob.format(DateTimeFormatter.ISO_DATE) + ", " + s.getGender() + ")");
     }
 
     private void displayAll() {
@@ -134,10 +146,12 @@ public final class ConsoleApp {
 
     private void searchByPesel() {
         String pesel = prompt("PESEL to search");
-        db.findByPesel(pesel).ifPresentOrElse(
-                s -> System.out.println("Found: " + s),
-                () -> System.out.println("No match.")
-        );
+        Student s = db.findByPesel(pesel);
+        if (s == null) {
+            System.out.println("No match.");
+        } else {
+            System.out.println("Found: " + s);
+        }
     }
 
     private void deleteByStudentId() {

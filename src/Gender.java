@@ -3,14 +3,12 @@ public enum Gender {
     MALE;
 
     public static Gender parse(String raw) {
-        if (raw == null) {
-            throw new IllegalArgumentException("Gender is required.");
-        }
-        String v = raw.trim().toUpperCase();
-        return switch (v) {
-            case "F", "FEMALE", "K", "KOBIETA" -> FEMALE;
-            case "M", "MALE", "MAN", "MEZCZYZNA", "MĘŻCZYZNA" -> MALE;
-            default -> throw new IllegalArgumentException("Unknown gender: " + raw);
-        };
+        if (raw == null) throw new IllegalArgumentException("Gender is required.");
+
+        String v = raw.trim();
+        if (v.equalsIgnoreCase("F") || v.equalsIgnoreCase("FEMALE")) return FEMALE;
+        if (v.equalsIgnoreCase("M") || v.equalsIgnoreCase("MALE")) return MALE;
+
+        throw new IllegalArgumentException("Unknown gender (use M/F): " + raw);
     }
 }
