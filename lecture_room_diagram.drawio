@@ -66,8 +66,8 @@
           <mxGeometry x="5" y="305" width="40" height="20" as="geometry" />
         </mxCell>
 
-        <mxCell id="room_dimensions" value="Room: 7.5m x 6.0m" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="75" width="150" height="25" as="geometry" />
+        <mxCell id="room_dimensions" value="Conference Room: 7.5m x 6.0m" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="75" width="220" height="25" as="geometry" />
         </mxCell>
 
         <mxCell id="pc_controller" value="PC and&#xa;controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=11;" vertex="1" parent="1">
@@ -82,18 +82,18 @@
           <mxGeometry x="840" y="520" width="100" height="100" as="geometry" />
         </mxCell>
 
-        <mxCell id="tv" value="TV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;fontColor=#FFFFFF;fontSize=11;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="770" y="300" width="150" height="90" as="geometry" />
+        <mxCell id="screen" value="Screen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;fontSize=10;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="250" width="20" height="200" as="geometry" />
         </mxCell>
 
         <mxCell id="projector" value="Projector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="620" y="320" width="50" height="50" as="geometry" />
+          <mxGeometry x="560" y="320" width="50" height="50" as="geometry" />
         </mxCell>
 
-        <mxCell id="proj_to_tv" value="2.7m" style="endArrow=none;html=1;dashed=1;strokeColor=#000000;fontSize=10;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+        <mxCell id="proj_to_screen" value="3.5m" style="endArrow=none;html=1;dashed=1;strokeColor=#000000;fontSize=10;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="670" y="345" as="sourcePoint" />
-            <mxPoint x="770" y="345" as="targetPoint" />
+            <mxPoint x="610" y="345" as="sourcePoint" />
+            <mxPoint x="920" y="345" as="targetPoint" />
           </mxGeometry>
         </mxCell>
 
@@ -168,9 +168,9 @@
         <mxCell id="hdmi_cable" value="" style="endArrow=none;html=1;strokeColor=#0000FF;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="115" as="sourcePoint" />
-            <mxPoint x="645" y="320" as="targetPoint" />
+            <mxPoint x="585" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="645" y="115" />
+              <mxPoint x="585" y="115" />
             </Array>
           </mxGeometry>
         </mxCell>
