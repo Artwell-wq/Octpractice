@@ -87,67 +87,67 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="audience_label" value="AUDIENCE SITTING AREA" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="180" height="25" as="geometry" />
+          <mxGeometry x="250" y="280" width="180" height="25" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="150" y="150" width="85" height="75" as="geometry" />
+          <mxGeometry x="150" y="150" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="150" width="85" height="75" as="geometry" />
+          <mxGeometry x="265" y="150" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="330" y="150" width="85" height="75" as="geometry" />
+          <mxGeometry x="380" y="150" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="420" y="150" width="85" height="75" as="geometry" />
+          <mxGeometry x="495" y="150" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row2_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="150" y="230" width="85" height="75" as="geometry" />
+          <mxGeometry x="150" y="230" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row2_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="230" width="85" height="75" as="geometry" />
+          <mxGeometry x="265" y="230" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row2_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="330" y="230" width="85" height="75" as="geometry" />
+          <mxGeometry x="380" y="230" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row2_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="420" y="230" width="85" height="75" as="geometry" />
+          <mxGeometry x="495" y="230" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_aisle_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="150" y="320" width="85" height="75" as="geometry" />
+          <mxGeometry x="150" y="320" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_aisle_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="320" width="85" height="75" as="geometry" />
+          <mxGeometry x="265" y="320" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_aisle_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="330" y="320" width="85" height="75" as="geometry" />
+          <mxGeometry x="380" y="320" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_aisle_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="420" y="320" width="85" height="75" as="geometry" />
+          <mxGeometry x="495" y="320" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row3_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="150" y="410" width="85" height="75" as="geometry" />
+          <mxGeometry x="150" y="410" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row3_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="410" width="85" height="75" as="geometry" />
+          <mxGeometry x="265" y="410" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row3_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="330" y="410" width="85" height="75" as="geometry" />
+          <mxGeometry x="380" y="410" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row3_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="420" y="410" width="85" height="75" as="geometry" />
+          <mxGeometry x="495" y="410" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row4_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="150" y="500" width="85" height="75" as="geometry" />
+          <mxGeometry x="150" y="500" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row4_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="500" width="85" height="75" as="geometry" />
+          <mxGeometry x="265" y="500" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row4_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="330" y="500" width="85" height="75" as="geometry" />
+          <mxGeometry x="380" y="500" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row4_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="420" y="500" width="85" height="75" as="geometry" />
+          <mxGeometry x="495" y="500" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="hdmi_cable" value="" style="endArrow=none;html=1;strokeColor=#0000FF;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
