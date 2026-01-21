@@ -1,205 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net" version="24.7.1">
   <diagram id="lecture-room-asp" name="ASP Site Plan">
-    <mxGraphModel dx="840" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="490">
+    <mxGraphModel dx="600" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="420">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wall_top" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="28" y="49" as="sourcePoint" />
-            <mxPoint x="672" y="49" as="targetPoint" />
+            <mxPoint x="20" y="35" as="sourcePoint" />
+            <mxPoint x="580" y="35" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wall_right" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="672" y="49" as="sourcePoint" />
-            <mxPoint x="672" y="455" as="targetPoint" />
+            <mxPoint x="580" y="35" as="sourcePoint" />
+            <mxPoint x="580" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wall_bottom" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="28" y="455" as="sourcePoint" />
-            <mxPoint x="672" y="455" as="targetPoint" />
+            <mxPoint x="20" y="400" as="sourcePoint" />
+            <mxPoint x="580" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wall_left_top" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="28" y="49" as="sourcePoint" />
-            <mxPoint x="28" y="224" as="targetPoint" />
+            <mxPoint x="20" y="35" as="sourcePoint" />
+            <mxPoint x="20" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wall_left_bottom" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="28" y="259" as="sourcePoint" />
-            <mxPoint x="28" y="455" as="targetPoint" />
+            <mxPoint x="20" y="220" as="sourcePoint" />
+            <mxPoint x="20" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="door_panel" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="28" y="224" as="sourcePoint" />
-            <mxPoint x="28" y="259" as="targetPoint" />
+            <mxPoint x="20" y="190" as="sourcePoint" />
+            <mxPoint x="20" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="door_swing" value="" style="curved=1;endArrow=none;html=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="28" y="224" as="sourcePoint" />
-            <mxPoint x="63" y="242" as="targetPoint" />
+            <mxPoint x="20" y="190" as="sourcePoint" />
+            <mxPoint x="50" y="205" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="53" y="224" />
+              <mxPoint x="40" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="door_arc" value="" style="arc;startAngle=0;endAngle=0.25;strokeColor=#000000;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="28" y="224" width="35" height="35" as="geometry" />
+          <mxGeometry x="20" y="190" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="door_label" value="DOOR" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="4" y="232" width="28" height="12" as="geometry" />
+        <mxCell id="door_label" value="DOOR" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1" y="198" width="24" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="room_dimensions" value="Conference Room: 7.5m x 6.0m" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="42" y="52" width="160" height="18" as="geometry" />
+        <mxCell id="room_dimensions" value="Conference Room: 7.5m x 6.0m" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="38" width="140" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="amp_source" value="Amplifier/&#xa;Source PC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="490" y="63" width="49" height="35" as="geometry" />
+        <mxCell id="amp_source" value="Amplifier/&#xa;Source PC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="45" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="microphone" value="Mic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="543" y="102" width="28" height="21" as="geometry" />
+        <mxCell id="microphone" value="Mic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#000000;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="82" width="24" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="loudspeaker1" value="LoudSpeaker1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="588" y="70" width="70" height="70" as="geometry" />
+        <mxCell id="loudspeaker1" value="Speaker1" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="510" y="50" width="55" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="loudspeaker2" value="LoudSpeaker2" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="588" y="364" width="70" height="70" as="geometry" />
+        <mxCell id="loudspeaker2" value="Speaker2" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="510" y="320" width="55" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="screen" value="Screen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;fontSize=8;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="644" y="144" width="14" height="217" as="geometry" />
+        <mxCell id="screen" value="Screen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;fontSize=7;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="565" y="110" width="12" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="screen_dimensions" value="3.5m x 2.0m" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="623" y="364" width="50" height="21" as="geometry" />
+        <mxCell id="screen_dimensions" value="3.5m x 2.0m" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="540" y="318" width="45" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="projector" value="Projector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="420" y="224" width="35" height="35" as="geometry" />
+        <mxCell id="projector" value="Projector" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="355" y="195" width="35" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="proj_to_screen" value="3.0m" style="endArrow=none;html=1;dashed=1;strokeColor=#000000;fontSize=8;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
+        <mxCell id="proj_to_screen" value="3.0m" style="endArrow=none;html=1;dashed=1;strokeColor=#000000;fontSize=7;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="455" y="242" as="sourcePoint" />
-            <mxPoint x="644" y="242" as="targetPoint" />
+            <mxPoint x="390" y="210" as="sourcePoint" />
+            <mxPoint x="565" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="audience_label" value="AUDIENCE SITTING AREA" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="42" y="77" width="130" height="18" as="geometry" />
+        <mxCell id="audience_label" value="AUDIENCE SITTING AREA" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="55" width="110" height="15" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="105" y="98" width="67" height="53" as="geometry" />
+          <mxGeometry x="70" y="75" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="186" y="98" width="67" height="53" as="geometry" />
+          <mxGeometry x="143" y="75" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="266" y="98" width="67" height="53" as="geometry" />
+          <mxGeometry x="216" y="75" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="347" y="98" width="67" height="53" as="geometry" />
+          <mxGeometry x="289" y="75" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row2_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="105" y="161" width="67" height="53" as="geometry" />
+          <mxGeometry x="70" y="133" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row2_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="186" y="161" width="67" height="53" as="geometry" />
+          <mxGeometry x="143" y="133" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row2_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="266" y="161" width="67" height="53" as="geometry" />
+          <mxGeometry x="216" y="133" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row2_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="347" y="161" width="67" height="53" as="geometry" />
+          <mxGeometry x="289" y="133" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_aisle_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="105" y="224" width="67" height="53" as="geometry" />
+          <mxGeometry x="70" y="191" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_aisle_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="186" y="224" width="67" height="53" as="geometry" />
+          <mxGeometry x="143" y="191" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_aisle_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="266" y="224" width="67" height="53" as="geometry" />
+          <mxGeometry x="216" y="191" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_aisle_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="347" y="224" width="67" height="53" as="geometry" />
+          <mxGeometry x="289" y="191" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row3_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="105" y="287" width="67" height="53" as="geometry" />
+          <mxGeometry x="70" y="249" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row3_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="186" y="287" width="67" height="53" as="geometry" />
+          <mxGeometry x="143" y="249" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row3_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="266" y="287" width="67" height="53" as="geometry" />
+          <mxGeometry x="216" y="249" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row3_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="347" y="287" width="67" height="53" as="geometry" />
+          <mxGeometry x="289" y="249" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row4_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="105" y="350" width="67" height="53" as="geometry" />
+          <mxGeometry x="70" y="307" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row4_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="186" y="350" width="67" height="53" as="geometry" />
+          <mxGeometry x="143" y="307" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row4_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="266" y="350" width="67" height="53" as="geometry" />
+          <mxGeometry x="216" y="307" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="seat_row4_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="347" y="350" width="67" height="53" as="geometry" />
+          <mxGeometry x="289" y="307" width="60" height="48" as="geometry" />
         </mxCell>
         <mxCell id="hdmi_cable" value="" style="endArrow=none;html=1;strokeColor=#0000FF;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="81" as="sourcePoint" />
-            <mxPoint x="438" y="224" as="targetPoint" />
+            <mxPoint x="430" y="65" as="sourcePoint" />
+            <mxPoint x="373" y="195" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="438" y="81" />
+              <mxPoint x="373" y="65" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="audio_cable1" value="" style="endArrow=none;html=1;strokeColor=#FF0000;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="539" y="81" as="sourcePoint" />
-            <mxPoint x="588" y="105" as="targetPoint" />
+            <mxPoint x="475" y="65" as="sourcePoint" />
+            <mxPoint x="510" y="78" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="574" y="81" />
-              <mxPoint x="574" y="105" />
+              <mxPoint x="500" y="65" />
+              <mxPoint x="500" y="78" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="audio_cable2" value="" style="endArrow=none;html=1;strokeColor=#FF0000;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="515" y="98" as="sourcePoint" />
-            <mxPoint x="588" y="399" as="targetPoint" />
+            <mxPoint x="453" y="80" as="sourcePoint" />
+            <mxPoint x="510" y="348" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="515" y="399" />
+              <mxPoint x="453" y="348" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="legend_box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="42" y="406" width="98" height="42" as="geometry" />
+          <mxGeometry x="30" y="362" width="90" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="legend_title" value="LEGEND" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="66" y="407" width="50" height="12" as="geometry" />
+        <mxCell id="legend_title" value="LEGEND" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="363" width="50" height="10" as="geometry" />
         </mxCell>
         <mxCell id="legend_line1" value="" style="endArrow=none;html=1;strokeColor=#0000FF;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="49" y="425" as="sourcePoint" />
-            <mxPoint x="77" y="425" as="targetPoint" />
+            <mxPoint x="35" y="378" as="sourcePoint" />
+            <mxPoint x="55" y="378" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="legend_text1" value="HDMI (Video)" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="80" y="420" width="56" height="12" as="geometry" />
+        <mxCell id="legend_text1" value="HDMI (Video)" style="text;html=1;align=left;verticalAlign=middle;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="58" y="373" width="55" height="10" as="geometry" />
         </mxCell>
         <mxCell id="legend_line2" value="" style="endArrow=none;html=1;strokeColor=#FF0000;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="49" y="438" as="sourcePoint" />
-            <mxPoint x="77" y="438" as="targetPoint" />
+            <mxPoint x="35" y="390" as="sourcePoint" />
+            <mxPoint x="55" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="legend_text2" value="Audio Cable" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="80" y="433" width="56" height="12" as="geometry" />
+        <mxCell id="legend_text2" value="Audio Cable" style="text;html=1;align=left;verticalAlign=middle;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="58" y="385" width="55" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
