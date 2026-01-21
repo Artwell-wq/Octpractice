@@ -87,19 +87,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="audience_label" value="AUDIENCE SITTING AREA" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="250" y="280" width="180" height="25" as="geometry" />
+          <mxGeometry x="60" y="110" width="180" height="25" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="150" y="150" width="95" height="75" as="geometry" />
+          <mxGeometry x="150" y="140" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="265" y="150" width="95" height="75" as="geometry" />
+          <mxGeometry x="265" y="140" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="380" y="150" width="95" height="75" as="geometry" />
+          <mxGeometry x="380" y="140" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row1_4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="495" y="150" width="95" height="75" as="geometry" />
+          <mxGeometry x="495" y="140" width="95" height="75" as="geometry" />
         </mxCell>
         <mxCell id="seat_row2_1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="150" y="230" width="95" height="75" as="geometry" />
