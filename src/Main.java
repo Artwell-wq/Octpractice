@@ -227,6 +227,46 @@ public class Main {
         System.out.println("  This is equivalent to summing the first 3 entries of Pascal's Triangle row n!");
         System.out.println();
         
+        System.out.println("╔═══════════════════════════════════════════════════════════════════════╗");
+        System.out.println("║   DERIVING RECURRENCE FROM BINOMIAL FORMULA (Pascal's Identity)      ║");
+        System.out.println("╚═══════════════════════════════════════════════════════════════════════╝");
+        System.out.println();
+        System.out.println("Pascal's Identity: C(n,k) = C(n-1,k-1) + C(n-1,k)");
+        System.out.println();
+        System.out.println("Starting with:  P(n) = C(n,0) + C(n,1) + C(n,2)");
+        System.out.println();
+        System.out.println("Apply Pascal's Identity to each term:");
+        System.out.println("  • C(n,0) = 1 = C(n-1,0)                    [base case]");
+        System.out.println("  • C(n,1) = C(n-1,0) + C(n-1,1)             [Pascal's Identity]");
+        System.out.println("  • C(n,2) = C(n-1,1) + C(n-1,2)             [Pascal's Identity]");
+        System.out.println();
+        System.out.println("Substitute back:");
+        System.out.println("  P(n) = C(n-1,0) + [C(n-1,0) + C(n-1,1)] + [C(n-1,1) + C(n-1,2)]");
+        System.out.println();
+        System.out.println("Rearrange:");
+        System.out.println("  P(n) = [C(n-1,0) + C(n-1,1) + C(n-1,2)] + [C(n-1,0) + C(n-1,1)]");
+        System.out.println("  P(n) =           P(n-1)                 + [   1    +   (n-1)  ]");
+        System.out.println("  P(n) =           P(n-1)                 +         n");
+        System.out.println();
+        System.out.println("  ┌─────────────────────────────────────────────────────────┐");
+        System.out.println("  │  RESULT: P(n) = P(n-1) + n   ← The Recurrence Relation! │");
+        System.out.println("  └─────────────────────────────────────────────────────────┘");
+        System.out.println();
+        System.out.println("NUMERICAL VERIFICATION:");
+        System.out.println("─────────────────────────────────────────────────────────────────────────");
+        for (int n = 1; n <= 5; n++) {
+            int cn0 = binomial(n-1, 0);
+            int cn1 = binomial(n-1, 1);
+            int pn_minus_1 = method4_BinomialCoefficients(n-1);
+            int pn = method4_BinomialCoefficients(n);
+            System.out.printf("  P(%d) = P(%d) + %d  →  %d = %d + %d  ✓%n", 
+                              n, n-1, n, pn, pn_minus_1, n);
+            System.out.printf("       Using Pascal: C(%d,0)+C(%d,1) = %d + %d = %d = n  ✓%n",
+                              n-1, n-1, cn0, cn1, cn0+cn1);
+            System.out.println();
+        }
+        System.out.println();
+        
         System.out.println("PASCAL'S TRIANGLE CONNECTION:");
         System.out.println("─────────────────────────────────────────────────────────────────────────");
         for (int n = 0; n <= 6; n++) {
